@@ -1,0 +1,37 @@
+#main{
+  background-image:url('./Assts/image/back_g.jpg');
+  height: 95vh;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat
+}
+kbd{
+  font-size: 5vh;
+}
+h1{
+  text-align: center
+}
+.playing{
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+.key-group{
+  margin-left: 30vh
+}
+.key{
+  border: 2px solid black;
+  float: left;
+  margin-left: 2vh;
+  padding: 3vh;
+  width: 8vh;
+  color: black;
+  transition: all .09s ease;
+  text-align: center
+}
+.key span{
+  font-size: 2.3vh;
+  color: yellowgreen;
+  text-align: center;
+}
